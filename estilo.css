@@ -1,0 +1,39 @@
+
+body {
+    background-color: #35349c; 
+    background-attachment: fixed;
+    margin: 0;
+    padding: 0;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+
+main {
+    min-height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 20px;
+}
+
+
+#login-container {
+    max-width: 950px;
+    width: 100%;
+    border-radius: 20px; 
+    overflow: hidden; 
+    background-color: white;
+}
+
+
+.custom-btn {
+    background-color: #5654b8 !important;
+    border: none !important;
+    padding: 12px;
+    font-weight: 500;
+}
+
+.custom-btn:hover {
+    background-color: #3f3da1 !important;
+    filter: brightness(1.1);
+}
